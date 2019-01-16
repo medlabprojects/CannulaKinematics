@@ -1,4 +1,4 @@
-# Cannula Kinematic Library
+# Cannula Kinematics Library
 
 **Active cannula (aka concentric tube) robot kinematics library**
 
