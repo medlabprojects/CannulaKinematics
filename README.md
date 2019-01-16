@@ -6,12 +6,12 @@
 **Follow these steps to build as a shared library (e.g. for use with [medlab_common](https://github.com/vanderbiltmedlab/medlab_common) ROS package)**
 
 1. Download and extract repository to your desired location
-   - GUI
+   - Using GUI:
       - Click the green 'Clone or Download' button above
       - Click 'Download ZIP'
       - Open with Archive Manager
       - Click 'Extract' and choose your desired location
-   - Terminal/Command Line
+   - Using Terminal/Command Line:
       - Download ZIP
       ```
       wget -O ./CannulaKinematics.zip "https://github.com/vanderbiltmedlab/CannulaKinematics/zipball/master"
