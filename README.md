@@ -15,7 +15,6 @@
       - Download ZIP
       ```
       wget -O ./CannulaKinematics.zip "https://github.com/vanderbiltmedlab/CannulaKinematics/zipball/master"
-   
       ```
       - Extract to your desired location
       ```
