@@ -1,0 +1,15 @@
+# - Config file for the CannulaKinematics package
+# It defines the following variables
+#  CannulaKinematics_INCLUDE_DIRS - include directories for Cannula Kinematics
+
+ 
+# Compute paths
+get_filename_component(CannulaKinematics_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+set(CannulaKinematics_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+if (NOT TARGET CannulaKinematics AND NOT CannulaKinematics_BINARY_DIF)
+	include("${CannulaKinematics_CMAKE_DIR}/CannulaKinematicsTargets.cmake")
+endif()
+
+#these are IMPORTED targets
+set(CannulaKinematics_LIBRARIES	CannulaKinematics)
